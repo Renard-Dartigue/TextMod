@@ -22,6 +22,7 @@ butInstall.addEventListener('click', async () => {
             } else {
             console.log('User dismissed the installation prompt.');
             }
+            vectorPrompt = null;
     }
 });
 
